@@ -1,0 +1,38 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+<?import com.sun.javafx.charts.Legend?>
+<?import javafx.scene.control.Label?>
+<BorderPane fx:controller="sample.Controller"
+            xmlns:fx="htttp://javafx.com/fxml">
+
+
+
+
+    <top>
+        <Label text="The ordynary text feeld" alignment="CENTER"
+        BorderPane.alignment="CENTER"/>
+
+
+    </top>
+    <left>
+        <Label text="text wo should show at left"/>
+    </left>
+    <right>
+        <Label text="text who should show up at right"/>
+    </right>
+
+    <bottom>
+
+        <HBox spacing="10" alignment="top_right">
+
+
+            <Button text="One" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <Button text="Two" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+            <Button text="Three" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Button text="Four" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+
+        </HBox>
+
+    </bottom>
+
+</BorderPane>
